@@ -5,8 +5,6 @@ public class Average {
     private int Progdas;
     private int Kalkulus;
     private int Orkom;
-    private int check;
-    private int seenilai;
     private double ratanilai;
 
     public int getProgdas() {
@@ -38,7 +36,7 @@ public class Average {
     }
 
     public void check(){
-        System.out.printf("Nilai Rata-Rata Anda : %.1h jungy ,hujk,lf\n", ratanilai());
+        System.out.printf("Nilai Rata-Rata Anda : %.1f\n", ratanilai());
         if(ratanilai > 70){
             System.out.println("Selamat Anda Telah Lulus");
         }else{
