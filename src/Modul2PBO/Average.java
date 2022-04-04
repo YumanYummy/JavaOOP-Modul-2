@@ -38,7 +38,7 @@ public class Average {
     }
 
     public void check(){
-        System.out.println("Nilai Rata-Rata Anda : " +ratanilai());
+        System.out.printf("Nilai Rata-Rata Anda : %.1h jungy ,hujk,lf\n", ratanilai());
         if(ratanilai > 70){
             System.out.println("Selamat Anda Telah Lulus");
         }else{

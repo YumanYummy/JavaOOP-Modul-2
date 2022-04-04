@@ -17,9 +17,7 @@ public class hitungrata_mhs{
         Kalkulus = input.nextInt();
         System.out.print("Masukkan Nilai Orkom Anda : ");
         Orkom = input.nextInt();
-
         go.setProgdas(Progdas); go.setOrkom(Orkom); go.setKalkulus(Kalkulus);
-
         go.seenilai();
         go.check();
     }
