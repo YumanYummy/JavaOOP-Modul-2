@@ -10,7 +10,7 @@ public class hitungrata_mhs{
         Average go = new Average();
 
         System.out.println("\n");
-        System.out.println("Program Menghitung Nilai Rata-Rata: ");
+        System.out.println("Program Menghitung Nilai Rata-Rata");
         System.out.print("Masukkan Nilai Progdas Anda : ");
         Progdas = input.nextInt();
         System.out.print("Masukkan Nilai Kalkulus Anda : ");
